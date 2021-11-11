@@ -1,6 +1,7 @@
-I am an SQL server develper who is eager to make researchers about database and sql
-
 # From_CSV_to_MSSQL_server
+# From_df_to_CSV
+# From_df_to_EXCEL
+
 convertion of datas from csv to sql 
 
 1)I found out a data whose data type is csv 
