@@ -7,10 +7,10 @@ df.columns=[x.lower().replace("?","_").replace("#","").replace("*","") for x in 
 df=df.dropna(how='any')
 df["year"] = df["year"].astype(int)
 
-servername='database-redyellow.cloc5pbzda4k.us-east-2.rds.amazonaws.com'
+servername='I deleted my server name so you need put yourself on it'
 database='BikeStores'
 username='admin'
-password='Melo.539933'
+password='same as well'
 conn = pyodbc.connect('DRIVER={SQL Server};SERVER='+servername+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = conn.cursor()
 # this is all it takes to connect to our ms sql database I am using AWS.
